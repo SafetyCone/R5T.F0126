@@ -26,7 +26,7 @@ namespace R5T.F0126
 
             var dateSpecificDirectoryName = start.Value.ToYYYYMMDD_HHMMSS();
 
-            var output = Instances.PathOperator.GetDirectoryPath(
+            var output = Instances.PathOperator.Get_DirectoryPath(
                 localRunSpecificParentDirectoryPath.Value,
                 dateSpecificDirectoryName)
                 .ToLocalRunSpecificDirectoryPath();
